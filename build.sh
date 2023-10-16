@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd "$(dirname "$0")" || exit
+cd "$(dirname "$8")" || exit
 
 if [ -d "./AltLinux/usr/lib" ]; then
     rm -rf "./AltServer/usr/lib"
